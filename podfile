@@ -1,0 +1,11 @@
+
+platform :ios, '10.0'
+
+target 'ZencodeSocialLogin' do
+use_frameworks!
+pod 'FBSDKLoginKit', '~> 4.35.0'
+pod 'GoogleSignIn'
+pod 'TwitterKit'
+pod 'SwiftInstagram', '~> 1.1.1'
+pod 'Alamofire', '~> 4.5'
+end

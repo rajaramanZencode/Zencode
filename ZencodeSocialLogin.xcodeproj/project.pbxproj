@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B55D49216E016B0085223C /* ZencodeSocialLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B55D3F216E016A0085223C /* ZencodeSocialLogin.framework */; };
+		17B55D4E216E016B0085223C /* ZencodeSocialLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B55D4D216E016B0085223C /* ZencodeSocialLoginTests.swift */; };
+		17B55D50216E016B0085223C /* ZencodeSocialLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B55D42216E016A0085223C /* ZencodeSocialLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17B55D5A216E01CA0085223C /* SocialLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B55D59216E01CA0085223C /* SocialLoginController.swift */; };
+		17B55D5C216E03870085223C /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 17B55D5B216E03860085223C /* podfile */; };
+		1D2DBB37CF7FCFEB22462018 /* Pods_ZencodeSocialLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CFA7F1C1DC3547E5DFD86E /* Pods_ZencodeSocialLogin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B55D4A216E016B0085223C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B55D36216E016A0085223C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B55D3E216E016A0085223C;
+			remoteInfo = ZencodeSocialLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17B55D3F216E016A0085223C /* ZencodeSocialLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZencodeSocialLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B55D42216E016A0085223C /* ZencodeSocialLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZencodeSocialLogin.h; sourceTree = "<group>"; };
+		17B55D43216E016A0085223C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B55D48216E016B0085223C /* ZencodeSocialLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZencodeSocialLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B55D4D216E016B0085223C /* ZencodeSocialLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZencodeSocialLoginTests.swift; sourceTree = "<group>"; };
+		17B55D4F216E016B0085223C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B55D59216E01CA0085223C /* SocialLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialLoginController.swift; sourceTree = "<group>"; };
+		17B55D5B216E03860085223C /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		483D458599A491263D80CBC8 /* Pods-ZencodeSocialLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZencodeSocialLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZencodeSocialLogin/Pods-ZencodeSocialLogin.release.xcconfig"; sourceTree = "<group>"; };
+		4D33E80B4823A86E5AB6CCD6 /* Pods-ZencodeSocialLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZencodeSocialLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZencodeSocialLogin/Pods-ZencodeSocialLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		74CFA7F1C1DC3547E5DFD86E /* Pods_ZencodeSocialLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZencodeSocialLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B55D3B216E016A0085223C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2DBB37CF7FCFEB22462018 /* Pods_ZencodeSocialLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B55D45216E016B0085223C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B55D49216E016B0085223C /* ZencodeSocialLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092F5D2B2051E6F321EE39EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74CFA7F1C1DC3547E5DFD86E /* Pods_ZencodeSocialLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B55D35216E016A0085223C = {
+			isa = PBXGroup;
+			children = (
+				17B55D5B216E03860085223C /* podfile */,
+				17B55D41216E016A0085223C /* ZencodeSocialLogin */,
+				17B55D4C216E016B0085223C /* ZencodeSocialLoginTests */,
+				17B55D40216E016A0085223C /* Products */,
+				3B7191F69F2264C7823BBA34 /* Pods */,
+				092F5D2B2051E6F321EE39EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17B55D40216E016A0085223C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B55D3F216E016A0085223C /* ZencodeSocialLogin.framework */,
+				17B55D48216E016B0085223C /* ZencodeSocialLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B55D41216E016A0085223C /* ZencodeSocialLogin */ = {
+			isa = PBXGroup;
+			children = (
+				17B55D42216E016A0085223C /* ZencodeSocialLogin.h */,
+				17B55D59216E01CA0085223C /* SocialLoginController.swift */,
+				17B55D43216E016A0085223C /* Info.plist */,
+			);
+			path = ZencodeSocialLogin;
+			sourceTree = "<group>";
+		};
+		17B55D4C216E016B0085223C /* ZencodeSocialLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				17B55D4D216E016B0085223C /* ZencodeSocialLoginTests.swift */,
+				17B55D4F216E016B0085223C /* Info.plist */,
+			);
+			path = ZencodeSocialLoginTests;
+			sourceTree = "<group>";
+		};
+		3B7191F69F2264C7823BBA34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D33E80B4823A86E5AB6CCD6 /* Pods-ZencodeSocialLogin.debug.xcconfig */,
+				483D458599A491263D80CBC8 /* Pods-ZencodeSocialLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17B55D3C216E016A0085223C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B55D50216E016B0085223C /* ZencodeSocialLogin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17B55D3E216E016A0085223C /* ZencodeSocialLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B55D53216E016B0085223C /* Build configuration list for PBXNativeTarget "ZencodeSocialLogin" */;
+			buildPhases = (
+				75A307869514118783A04B04 /* [CP] Check Pods Manifest.lock */,
+				17B55D3A216E016A0085223C /* Sources */,
+				17B55D3B216E016A0085223C /* Frameworks */,
+				17B55D3C216E016A0085223C /* Headers */,
+				17B55D3D216E016A0085223C /* Resources */,
+				06988C14CFACC41479162332 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZencodeSocialLogin;
+			productName = ZencodeSocialLogin;
+			productReference = 17B55D3F216E016A0085223C /* ZencodeSocialLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		17B55D47216E016B0085223C /* ZencodeSocialLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B55D56216E016B0085223C /* Build configuration list for PBXNativeTarget "ZencodeSocialLoginTests" */;
+			buildPhases = (
+				17B55D44216E016B0085223C /* Sources */,
+				17B55D45216E016B0085223C /* Frameworks */,
+				17B55D46216E016B0085223C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B55D4B216E016B0085223C /* PBXTargetDependency */,
+			);
+			name = ZencodeSocialLoginTests;
+			productName = ZencodeSocialLoginTests;
+			productReference = 17B55D48216E016B0085223C /* ZencodeSocialLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B55D36216E016A0085223C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Rajaraman;
+				TargetAttributes = {
+					17B55D3E216E016A0085223C = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					17B55D47216E016B0085223C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 17B55D39216E016A0085223C /* Build configuration list for PBXProject "ZencodeSocialLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17B55D35216E016A0085223C;
+			productRefGroup = 17B55D40216E016A0085223C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B55D3E216E016A0085223C /* ZencodeSocialLogin */,
+				17B55D47216E016B0085223C /* ZencodeSocialLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B55D3D216E016A0085223C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B55D5C216E03870085223C /* podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B55D46216E016B0085223C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06988C14CFACC41479162332 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZencodeSocialLogin/Pods-ZencodeSocialLogin-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZencodeSocialLogin/Pods-ZencodeSocialLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75A307869514118783A04B04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZencodeSocialLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B55D3A216E016A0085223C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B55D5A216E01CA0085223C /* SocialLoginController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B55D44216E016B0085223C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B55D4E216E016B0085223C /* ZencodeSocialLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B55D4B216E016B0085223C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B55D3E216E016A0085223C /* ZencodeSocialLogin */;
+			targetProxy = 17B55D4A216E016B0085223C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17B55D51216E016B0085223C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17B55D52216E016B0085223C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17B55D54216E016B0085223C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D33E80B4823A86E5AB6CCD6 /* Pods-ZencodeSocialLogin.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZencodeSocialLogin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zencode.ZencodeSocialLogin;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17B55D55216E016B0085223C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483D458599A491263D80CBC8 /* Pods-ZencodeSocialLogin.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZencodeSocialLogin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zencode.ZencodeSocialLogin;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17B55D57216E016B0085223C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZencodeSocialLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zencode.ZencodeSocialLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17B55D58216E016B0085223C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZencodeSocialLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zencode.ZencodeSocialLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B55D39216E016A0085223C /* Build configuration list for PBXProject "ZencodeSocialLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B55D51216E016B0085223C /* Debug */,
+				17B55D52216E016B0085223C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B55D53216E016B0085223C /* Build configuration list for PBXNativeTarget "ZencodeSocialLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B55D54216E016B0085223C /* Debug */,
+				17B55D55216E016B0085223C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B55D56216E016B0085223C /* Build configuration list for PBXNativeTarget "ZencodeSocialLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B55D57216E016B0085223C /* Debug */,
+				17B55D58216E016B0085223C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B55D36216E016A0085223C /* Project object */;
+}
